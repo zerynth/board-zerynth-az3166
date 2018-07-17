@@ -1,1 +1,2 @@
-# board-zerynth-az3166
+# az3166
+

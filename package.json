@@ -1,0 +1,26 @@
+{
+    "dependencies": {
+        "lib.broadcom.bcm43362": "r2.1.2",
+        "sys.zerynth.armgcc": "r2.1.2",
+        "vhal.zerynth.armcmx_stm32f4": "r2.1.2"
+    },
+    "description": "Add support for IoT DevKit AZ3166",
+    "fullname": "board.zerynth.az3166",
+    "git_pointer": "zerynth://zerynth-boards/az3166",
+    "info": {
+        "board": "IoT DevKit AZ3166",
+        "chip_manufacturer": "ST Microelectronics",
+        "device": "stm32f412",
+        "family_type": "ARM Cortex M4"
+    },
+    "keywords": [
+        "mxchip",
+        "board",
+        "wifi",
+        "az3166"
+    ],
+    "repo": "official",
+    "title": "MXChip IoT DevKitc AZ3166 Support Package",
+    "version": "r2.1.2",
+    "whatsnew": ""
+}
