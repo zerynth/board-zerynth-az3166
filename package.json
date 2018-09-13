@@ -8,7 +8,7 @@
     "fullname": "board.zerynth.az3166",
     "git_pointer": "zerynth://zerynth-boards/az3166",
     "info": {
-        "board": "IoT DevKit AZ3166",
+        "board": "MXChip IoT DevKit AZ3166",
         "chip_manufacturer": "ST Microelectronics",
         "device": "stm32f412",
         "family_type": "ARM Cortex M4"
