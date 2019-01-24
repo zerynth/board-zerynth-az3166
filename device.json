@@ -1,42 +1,68 @@
 {
-    "name":"IoT DevKit AZ3166",
-    "target":"az3166",
-    "cc":"armgcc",
-    "classes":["az3166.AZ3166"],
-    "ram":256,
-    "flash":1024,
-    "family_type":"armcmx",
-    "family_name":"stm32f4",
-    "chip_model":"stm32f412",
+    "name": "IoT DevKit AZ3166",
+    "target": "az3166",
+    "cc": "armgcc",
+    "classes": [
+        "az3166.AZ3166"
+    ],
+    "ram": 256,
+    "flash": 1024,
+    "family_type": "armcmx",
+    "family_name": "stm32f4",
+    "chip_model": "stm32f412",
     "manual_reset": 1,
-    "preferred_baud":115200,
-    "board_producer":"MXChip",
-    "chip_manifacturer":"STM",
-    "architecture":"cortex-m4",
-    "gccopts":{
-        "cflags": ["-mcpu=cortex-m4","-mthumb", "-Os","-fomit-frame-pointer","-falign-functions=16","-ffunction-sections", "-fdata-sections", "-fno-common", "-Wall", "-Wextra", "-Wstrict-prototypes","-nostdlib","-std=c99","-fno-unwind-tables"],
-        "defs": ["STM32F40_41xxx","STM32F412","STM32F412xG","VM_DEFAULT_THREAD_SIZE=4096"]
+    "preferred_baud": 115200,
+    "board_producer": "MXChip",
+    "chip_manifacturer": "STM",
+    "architecture": "cortex-m4",
+    "gccopts": {
+        "arch": [
+            "cortex-m4",
+            "-mthumb"
+        ],
+        "cflags": [
+            "-mcpu=cortex-m4",
+            "-mthumb",
+            "-Os",
+            "-fomit-frame-pointer",
+            "-falign-functions=16",
+            "-ffunction-sections",
+            "-fdata-sections",
+            "-fno-common",
+            "-Wall",
+            "-Wextra",
+            "-Wstrict-prototypes",
+            "-nostdlib",
+            "-std=c99",
+            "-fno-unwind-tables"
+        ],
+        "defs": [
+            "STM32F40_41xxx",
+            "STM32F412",
+            "STM32F412xG",
+            "VM_DEFAULT_THREAD_SIZE=4096"
+        ]
     },
-    "relocator":"cortex-m",
-    "type":"board",
-    "virtualizable":"AZ3166",
-    "jtag_target":"stm32f4x.cfg",
+    "relocator": "cortex-m",
+    "type": "board",
+    "virtualizable": "AZ3166",
+    "jtag_target": "stm32f4x.cfg",
     "jtag_capable": 2,
-    "jtag_class":"AZ3166",
+    "jtag_class": "AZ3166",
     "jtag_chipid_command": "reset halt; mdw 0x1fff7a10; mdw 0x1fff7a14; mdw 0x1fff7a18",
-    "jtag_chipid_len":3,
-    "jtag_timeout":25,
-    "jtag_chipid_prefix":"0x1fff7",
-    "bytecode_offset":"0x8020000",
-    "vmstore_offset":"0x801fc00",
+    "jtag_chipid_len": 3,
+    "jtag_timeout": 25,
+    "jtag_chipid_prefix": "0x1fff7",
+    "bytecode_offset": "0x8020000",
+    "vmstore_offset": "0x801fc00",
     "uplink_reset": true,
-    "reset_time":2000,
-    "connection":{
-        "baudrate":115200,
-        "parity":"n",
-        "bytesize":8,
-        "stopbits":1,
-        "dsrdtr":false,
-        "rtscts":false
+    "reset_time": 2000,
+    "connection": {
+        "baudrate": 115200,
+        "parity": "n",
+        "bytesize": 8,
+        "stopbits": 1,
+        "dsrdtr": false,
+        "rtscts": false
     }
 }
