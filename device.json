@@ -64,5 +64,14 @@
         "stopbits": 1,
         "dsrdtr": false,
         "rtscts": false
+    },
+    "preferred_uplink_with_jtag":{
+        "probe": "stlink"
+    },
+    "preferred_register_with_jtag":{
+        "probe": "stlink"
+    },
+    "preferred_burn_with_jtag":{
+        "probe": "stlink"
     }
 }
