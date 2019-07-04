@@ -1,0 +1,15 @@
+---
+description: Add support for IoT DevKit AZ3166
+fullname: board.zerynth.az3166
+info:
+    board: MXChip IoT DevKit AZ3166
+    chip_manufacturer: ST Microelectronics
+    device: stm32f412
+    family_type: ARM Cortex M4
+keywords:
+- mxchip
+- board
+- wifi
+- az3166
+title: MXChip IoT DevKitc AZ3166 Support Package
+...
