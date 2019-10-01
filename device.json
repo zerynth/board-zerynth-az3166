@@ -17,7 +17,7 @@
     "architecture": "cortex-m4",
     "gccopts": {
         "arch": [
-            "cortex-m4",
+            "-mcpu=cortex-m4",
             "-mthumb"
         ],
         "cflags": [
@@ -65,13 +65,13 @@
         "dsrdtr": false,
         "rtscts": false
     },
-    "preferred_uplink_with_jtag":{
+    "preferred_uplink_with_jtag": {
         "probe": "stlink"
     },
-    "preferred_register_with_jtag":{
+    "preferred_register_with_jtag": {
         "probe": "stlink"
     },
-    "preferred_burn_with_jtag":{
+    "preferred_burn_with_jtag": {
         "probe": "stlink"
     }
 }
